@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from 'react-router-dom'
-import RoomsList from './RoomsList';
-import RoomChat from './RoomChat';
+import RoomsList from '../containers/RoomsList';
+import RoomChat from '../containers/RoomChat';
 
 const Room = () => (
     <main>

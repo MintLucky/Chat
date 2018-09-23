@@ -1,7 +1,7 @@
 import React from "react";
 import io from "socket.io-client";
 import autoBind from 'react-autobind';
-import ServerPath from './config.js';
+import ServerPath from '../../config.js';
 
 class RoomChat extends React.Component{
     constructor(props){

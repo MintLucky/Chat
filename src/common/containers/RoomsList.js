@@ -1,7 +1,7 @@
 import React from "react";
 import io from "socket.io-client";
 import { Link, Redirect } from 'react-router-dom';
-import ServerPath from './config.js';
+import ServerPath from '../../config.js';
 
 class RoomList extends React.Component {
     constructor(props){
