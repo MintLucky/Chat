@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 13px Helvetica, Arial;
+}
+
+.header-block {
+    height: 47px;
+    background-color: rgb(130, 224, 255);
+}
+
+.footer-block {
+    height: 30px;
+    background: rgb(130, 224, 255);
+}
+
+.footer-copyright {
+    text-align: right;
+}
+
+.footer-copyright span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 7px;
+}
+
+.application-wrapper {
+    background-image: url("../pictures/chat-to-others.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin-top: 30px;
+    min-height: calc(100vh - 107px);
+}
+
+.logo {
+    background-image: url("../pictures/chats2.png");
+    background-repeat: no-repeat;
+}
+
+.main-page-wrapper {
+    padding: 30px;
+}
+
+.main-page-wrapper h1 {
+    font-size: 62px;
+    color: #ffffff;
+}
+
+.rooms-list-wrapper {
+
+}
+
+.rooms-list-body hr {
+    height: 2px;
+}
+
+.rooms-list-wrapper .room-name-wrapper {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.rooms-list-wrapper .room-name-wrapper span {
+    color: #FFAE19;
+}
+
+.rooms-list-wrapper .rooms-list-title {
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.rooms-list-no-rooms-wrapper {
+
+}
+
+.rooms-list-no-rooms-wrapper h2 {
+    font-size: 42px;
+}
+
+.create-new-room-button-wrapper {
+    margin-top: 50px;
+}
+
+.create-new-room-button-wrapper button {
+
+}
+
+.start-chat-link {
+    font-size: 42px;
+}
+
+.send-button {
+    background: #000;
+    padding: 3px;
+    bottom: 0;
+    width: 100%;
+}
+
+form button {
+    width: 9%;
+    background: rgb(130, 224, 255);
+    border: none;
+    padding: 10px;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messages li {
+    padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+    background: #eee;
+}
+
+.chat-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-wrapper .chat-left-side {
+    width:50%;
+}
+
+.chat-wrapper .chat-right-side {
+    width:45%;
+    margin-top: 70px;
+}
+
+.chat-messages {
+
+}
+
+.chat-messages .chat-message-item {
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.chat-wrapper .chat-title {
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.users-typing-block {
+    margin-top: 100px;
+}
+
+.users-typing-block .user-typing-item {
+    color: #ffffff;
+}
+
+.user-joined-room {
+    margin-top: 400px;
+}
+
+.user-joined-room > div {
+    font-size: 32px;
+    color: #FFAE19;
+}
